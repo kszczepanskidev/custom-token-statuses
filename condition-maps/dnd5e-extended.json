@@ -1,0 +1,762 @@
+{
+    "system": "dnd5e",
+    "map": [
+      {
+        "id": "concentrating",
+        "name": "Concentrating",
+        "icon": "modules/thanduls-custom-statuses/icons/1_Concentrating.webp",
+        "referenceId": "@UUID[Compendium.dnd5e.rules.QvPDSUsAiEn3hD8s.JournalEntryPage.wre9ECSVuEyJBYhr#concentration]{Concentration}",
+        "applyTrigger": "",
+        "removeTrigger": "",
+        "options": {
+          "overlay": false,
+          "removeOthers": false,
+          "outputChat": false,
+          "markDefeated": false
+        },
+        "isNew": false,
+        "isChanged": false,
+        "enrichedReference": "<a class=\"content-link\" draggable=\"true\" data-hash=\"concentration\" data-uuid=\"Compendium.dnd5e.rules.QvPDSUsAiEn3hD8s.JournalEntryPage.wre9ECSVuEyJBYhr\" data-id=\"wre9ECSVuEyJBYhr\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Text Page\"><i class=\"fas fa-file-lines\"></i>Concentration</a>",
+        "hidden": false
+      },
+      {
+        "id": "afflicted",
+        "name": "Afflicted",
+        "icon": "modules/thanduls-custom-statuses/icons/36_Afflicted.webp",
+        "referenceId": "",
+        "applyTrigger": "",
+        "removeTrigger": "",
+        "options": {
+          "overlay": false,
+          "removeOthers": false,
+          "outputChat": false,
+          "markDefeated": false
+        },
+        "isNew": false,
+        "isChanged": false,
+        "enrichedReference": "",
+        "hidden": false
+      },
+      {
+        "id": "blinded",
+        "name": "Blinded",
+        "icon": "modules/thanduls-custom-statuses/icons/6_Blinded.webp",
+        "referenceId": "@UUID[Compendium.dnd5e.rules.w7eitkpD7QQTB6j0.JournalEntryPage.0b8N4FymGGfbZGpJ]{Blinded}",
+        "applyTrigger": "",
+        "removeTrigger": "",
+        "options": {
+          "overlay": false,
+          "removeOthers": false,
+          "outputChat": false,
+          "markDefeated": false
+        },
+        "isNew": false,
+        "isChanged": false,
+        "enrichedReference": "<a class=\"content-link\" draggable=\"true\" data-uuid=\"Compendium.dnd5e.rules.w7eitkpD7QQTB6j0.JournalEntryPage.0b8N4FymGGfbZGpJ\" data-id=\"0b8N4FymGGfbZGpJ\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Text Page\"><i class=\"fas fa-file-lines\"></i>Blinded</a>",
+        "hidden": false
+      },
+      {
+        "id": "charmed",
+        "name": "Charmed",
+        "icon": "modules/thanduls-custom-statuses/icons/8_Charmed.webp",
+        "referenceId": "@UUID[Compendium.dnd5e.rules.w7eitkpD7QQTB6j0.JournalEntryPage.zZaEBrKkr66OWJvD]{Charmed}",
+        "applyTrigger": "",
+        "removeTrigger": "",
+        "options": {
+          "overlay": false,
+          "removeOthers": false,
+          "outputChat": false,
+          "markDefeated": false
+        },
+        "isNew": false,
+        "isChanged": false,
+        "enrichedReference": "<a class=\"content-link\" draggable=\"true\" data-uuid=\"Compendium.dnd5e.rules.w7eitkpD7QQTB6j0.JournalEntryPage.zZaEBrKkr66OWJvD\" data-id=\"zZaEBrKkr66OWJvD\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Text Page\"><i class=\"fas fa-file-lines\"></i>Charmed</a>",
+        "hidden": false
+      },
+      {
+        "id": "deafeted",
+        "name": "Deafeted",
+        "icon": "modules/thanduls-custom-statuses/icons/37_Malus.webp",
+        "referenceId": "",
+        "applyTrigger": "",
+        "removeTrigger": "",
+        "options": {
+          "overlay": false,
+          "removeOthers": false,
+          "outputChat": false,
+          "markDefeated": false
+        },
+        "isNew": false,
+        "isChanged": false,
+        "enrichedReference": "",
+        "hidden": false
+      },
+      {
+        "id": "deafened",
+        "name": "Deafened",
+        "icon": "modules/thanduls-custom-statuses/icons/9_Deafened.webp",
+        "referenceId": "@UUID[Compendium.dnd5e.rules.w7eitkpD7QQTB6j0.JournalEntryPage.6G8JSjhn701cBITY]{Deafened}",
+        "applyTrigger": "",
+        "removeTrigger": "",
+        "options": {
+          "overlay": false,
+          "removeOthers": false,
+          "outputChat": false,
+          "markDefeated": false
+        },
+        "isNew": false,
+        "isChanged": false,
+        "enrichedReference": "<a class=\"content-link\" draggable=\"true\" data-uuid=\"Compendium.dnd5e.rules.w7eitkpD7QQTB6j0.JournalEntryPage.6G8JSjhn701cBITY\" data-id=\"6G8JSjhn701cBITY\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Text Page\"><i class=\"fas fa-file-lines\"></i>Deafened</a>",
+        "hidden": false
+      },
+      {
+        "id": "disarmed",
+        "name": "Disarmed",
+        "icon": "modules/thanduls-custom-statuses/icons/12_Disarmed.webp",
+        "referenceId": "",
+        "applyTrigger": "",
+        "removeTrigger": "",
+        "options": {
+          "overlay": false,
+          "removeOthers": false,
+          "outputChat": false,
+          "markDefeated": false
+        },
+        "isNew": false,
+        "isChanged": false,
+        "enrichedReference": "",
+        "hidden": false
+      },
+      {
+        "id": "dismembered",
+        "name": "Dismembered",
+        "icon": "modules/thanduls-custom-statuses/icons/42_Dismembered.webp",
+        "referenceId": "",
+        "applyTrigger": "",
+        "removeTrigger": "",
+        "options": {
+          "overlay": false,
+          "removeOthers": false,
+          "outputChat": false,
+          "markDefeated": false
+        },
+        "isNew": false,
+        "isChanged": false,
+        "enrichedReference": "",
+        "hidden": false
+      },
+      {
+        "id": "drowning",
+        "name": "Drowning",
+        "icon": "modules/thanduls-custom-statuses/icons/40_Drowning.webp",
+        "referenceId": "",
+        "applyTrigger": "",
+        "removeTrigger": "",
+        "options": {
+          "overlay": false,
+          "removeOthers": false,
+          "outputChat": false,
+          "markDefeated": false
+        },
+        "isNew": false,
+        "isChanged": false,
+        "enrichedReference": "",
+        "hidden": false
+      },
+      {
+        "id": "exhausted",
+        "name": "Exhausted",
+        "icon": "modules/thanduls-custom-statuses/icons/10_Exhausted.webp",
+        "referenceId": "@UUID[Compendium.dnd5e.rules.w7eitkpD7QQTB6j0.JournalEntryPage.cspWveykstnu3Zcv]{Exhaustion}",
+        "applyTrigger": "",
+        "removeTrigger": "",
+        "options": {
+          "overlay": false,
+          "removeOthers": false,
+          "outputChat": false,
+          "markDefeated": false
+        },
+        "isNew": false,
+        "isChanged": false,
+        "enrichedReference": "<a class=\"content-link\" draggable=\"true\" data-uuid=\"Compendium.dnd5e.rules.w7eitkpD7QQTB6j0.JournalEntryPage.cspWveykstnu3Zcv\" data-id=\"cspWveykstnu3Zcv\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Text Page\"><i class=\"fas fa-file-lines\"></i>Exhaustion</a>",
+        "hidden": false
+      },
+      {
+        "id": "frightened",
+        "name": "Frightened",
+        "icon": "modules/thanduls-custom-statuses/icons/11_Feared.webp",
+        "referenceId": "@UUID[Compendium.dnd5e.rules.w7eitkpD7QQTB6j0.JournalEntryPage.oreoyaFKnvZCrgij]{Frightened}",
+        "applyTrigger": "",
+        "removeTrigger": "",
+        "options": {
+          "overlay": false,
+          "removeOthers": false,
+          "outputChat": false,
+          "markDefeated": false
+        },
+        "isNew": false,
+        "isChanged": false,
+        "enrichedReference": "<a class=\"content-link\" draggable=\"true\" data-uuid=\"Compendium.dnd5e.rules.w7eitkpD7QQTB6j0.JournalEntryPage.oreoyaFKnvZCrgij\" data-id=\"oreoyaFKnvZCrgij\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Text Page\"><i class=\"fas fa-file-lines\"></i>Frightened</a>",
+        "hidden": false
+      },
+      {
+        "id": "grappled",
+        "name": "Grappled",
+        "icon": "modules/thanduls-custom-statuses/icons/2_Grappled.webp",
+        "referenceId": "@UUID[Compendium.dnd5e.rules.w7eitkpD7QQTB6j0.JournalEntryPage.gYDAhd02ryUmtwZn]{Grappled}",
+        "applyTrigger": "",
+        "removeTrigger": "",
+        "options": {
+          "overlay": false,
+          "removeOthers": false,
+          "outputChat": false,
+          "markDefeated": false
+        },
+        "isNew": false,
+        "isChanged": false,
+        "enrichedReference": "<a class=\"content-link\" draggable=\"true\" data-uuid=\"Compendium.dnd5e.rules.w7eitkpD7QQTB6j0.JournalEntryPage.gYDAhd02ryUmtwZn\" data-id=\"gYDAhd02ryUmtwZn\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Text Page\"><i class=\"fas fa-file-lines\"></i>Grappled</a>",
+        "hidden": false
+      },
+      {
+        "id": "ignited",
+        "name": "Ignited",
+        "icon": "modules/thanduls-custom-statuses/icons/7_Burning.webp",
+        "referenceId": "",
+        "applyTrigger": "",
+        "removeTrigger": "",
+        "options": {
+          "overlay": false,
+          "removeOthers": false,
+          "outputChat": false,
+          "markDefeated": false
+        },
+        "isNew": false,
+        "isChanged": false,
+        "enrichedReference": "",
+        "hidden": false
+      },
+      {
+        "id": "illusion",
+        "name": "Illusion",
+        "icon": "modules/thanduls-custom-statuses/icons/41_Illusion.webp",
+        "referenceId": "",
+        "applyTrigger": "",
+        "removeTrigger": "",
+        "options": {
+          "overlay": false,
+          "removeOthers": false,
+          "outputChat": false,
+          "markDefeated": false
+        },
+        "isNew": false,
+        "isChanged": false,
+        "enrichedReference": "",
+        "hidden": false
+      },
+      {
+        "id": "incapacitated",
+        "name": "Incapacitated",
+        "icon": "modules/thanduls-custom-statuses/icons/13_Incapacitated.webp",
+        "referenceId": "@UUID[Compendium.dnd5e.rules.w7eitkpD7QQTB6j0.JournalEntryPage.TpkZgLfxCmSndmpb]{Incapacitated}",
+        "applyTrigger": "",
+        "removeTrigger": "",
+        "options": {
+          "overlay": false,
+          "removeOthers": false,
+          "outputChat": false,
+          "markDefeated": false
+        },
+        "isNew": false,
+        "isChanged": false,
+        "enrichedReference": "<a class=\"content-link\" draggable=\"true\" data-uuid=\"Compendium.dnd5e.rules.w7eitkpD7QQTB6j0.JournalEntryPage.TpkZgLfxCmSndmpb\" data-id=\"TpkZgLfxCmSndmpb\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Text Page\"><i class=\"fas fa-file-lines\"></i>Incapacitated</a>",
+        "hidden": false
+      },
+      {
+        "id": "marked",
+        "name": "Marked",
+        "icon": "modules/thanduls-custom-statuses/icons/39_Marked2.webp",
+        "referenceId": "",
+        "applyTrigger": "",
+        "removeTrigger": "",
+        "options": {
+          "overlay": false,
+          "removeOthers": false,
+          "outputChat": false,
+          "markDefeated": false
+        },
+        "isNew": false,
+        "isChanged": false,
+        "enrichedReference": "",
+        "hidden": false
+      },
+      {
+        "id": "paralyzed",
+        "name": "Paralyzed",
+        "icon": "modules/thanduls-custom-statuses/icons/15_Paralyzed.webp",
+        "referenceId": "@UUID[Compendium.dnd5e.rules.w7eitkpD7QQTB6j0.JournalEntryPage.xnSV5hLJIMaTABXP]{Paralyzed}",
+        "applyTrigger": "",
+        "removeTrigger": "",
+        "options": {
+          "overlay": false,
+          "removeOthers": false,
+          "outputChat": false,
+          "markDefeated": false
+        },
+        "isNew": false,
+        "isChanged": false,
+        "enrichedReference": "<a class=\"content-link\" draggable=\"true\" data-uuid=\"Compendium.dnd5e.rules.w7eitkpD7QQTB6j0.JournalEntryPage.xnSV5hLJIMaTABXP\" data-id=\"xnSV5hLJIMaTABXP\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Text Page\"><i class=\"fas fa-file-lines\"></i>Paralyzed</a>",
+        "hidden": false
+      },
+      {
+        "id": "petrified",
+        "name": "Petrified",
+        "icon": "modules/thanduls-custom-statuses/icons/16_Petrified.webp",
+        "referenceId": "@UUID[Compendium.dnd5e.rules.w7eitkpD7QQTB6j0.JournalEntryPage.xaNDaW6NwQTgHSmi]{Petrified}",
+        "applyTrigger": "",
+        "removeTrigger": "",
+        "options": {
+          "overlay": false,
+          "removeOthers": false,
+          "outputChat": false,
+          "markDefeated": false
+        },
+        "isNew": false,
+        "isChanged": false,
+        "enrichedReference": "<a class=\"content-link\" draggable=\"true\" data-uuid=\"Compendium.dnd5e.rules.w7eitkpD7QQTB6j0.JournalEntryPage.xaNDaW6NwQTgHSmi\" data-id=\"xaNDaW6NwQTgHSmi\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Text Page\"><i class=\"fas fa-file-lines\"></i>Petrified</a>",
+        "hidden": false
+      },
+      {
+        "id": "poisoned",
+        "name": "Poisoned",
+        "icon": "modules/thanduls-custom-statuses/icons/17_Poisoned.webp",
+        "referenceId": "@UUID[Compendium.dnd5e.rules.w7eitkpD7QQTB6j0.JournalEntryPage.lq3TRI6ZlED8ABMx]{Poisoned}",
+        "applyTrigger": "",
+        "removeTrigger": "",
+        "options": {
+          "overlay": false,
+          "removeOthers": false,
+          "outputChat": false,
+          "markDefeated": false
+        },
+        "isNew": false,
+        "isChanged": false,
+        "enrichedReference": "<a class=\"content-link\" draggable=\"true\" data-uuid=\"Compendium.dnd5e.rules.w7eitkpD7QQTB6j0.JournalEntryPage.lq3TRI6ZlED8ABMx\" data-id=\"lq3TRI6ZlED8ABMx\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Text Page\"><i class=\"fas fa-file-lines\"></i>Poisoned</a>",
+        "hidden": false
+      },
+      {
+        "id": "prone",
+        "name": "Prone",
+        "icon": "modules/thanduls-custom-statuses/icons/3_Prone.webp",
+        "referenceId": "@UUID[Compendium.dnd5e.rules.w7eitkpD7QQTB6j0.JournalEntryPage.y0TkcdyoZlOTmAFT]{Prone}",
+        "applyTrigger": "",
+        "removeTrigger": "",
+        "options": {
+          "overlay": false,
+          "removeOthers": false,
+          "outputChat": false,
+          "markDefeated": false
+        },
+        "isNew": false,
+        "isChanged": false,
+        "enrichedReference": "<a class=\"content-link\" draggable=\"true\" data-uuid=\"Compendium.dnd5e.rules.w7eitkpD7QQTB6j0.JournalEntryPage.y0TkcdyoZlOTmAFT\" data-id=\"y0TkcdyoZlOTmAFT\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Text Page\"><i class=\"fas fa-file-lines\"></i>Prone</a>",
+        "hidden": false
+      },
+      {
+        "id": "mute",
+        "name": "Mute",
+        "icon": "modules/thanduls-custom-statuses/icons/14_Mute.webp",
+        "referenceId": "",
+        "applyTrigger": "",
+        "removeTrigger": "",
+        "options": {
+          "overlay": false,
+          "removeOthers": false,
+          "outputChat": false,
+          "markDefeated": false
+        },
+        "isNew": false,
+        "isChanged": false,
+        "enrichedReference": "",
+        "hidden": false
+      },
+      {
+        "id": "restrained",
+        "name": "Restrained",
+        "icon": "modules/thanduls-custom-statuses/icons/4_Restrained.webp",
+        "referenceId": "@UUID[Compendium.dnd5e.rules.w7eitkpD7QQTB6j0.JournalEntryPage.cSVcyZyNe2iG1fIc]{Restrained}",
+        "applyTrigger": "",
+        "removeTrigger": "",
+        "options": {
+          "overlay": false,
+          "removeOthers": false,
+          "outputChat": false,
+          "markDefeated": false
+        },
+        "isNew": false,
+        "isChanged": false,
+        "enrichedReference": "<a class=\"content-link\" draggable=\"true\" data-uuid=\"Compendium.dnd5e.rules.w7eitkpD7QQTB6j0.JournalEntryPage.cSVcyZyNe2iG1fIc\" data-id=\"cSVcyZyNe2iG1fIc\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Text Page\"><i class=\"fas fa-file-lines\"></i>Restrained</a>",
+        "hidden": false
+      },
+      {
+        "id": "stunned",
+        "name": "Stunned",
+        "icon": "modules/thanduls-custom-statuses/icons/19_Stunned.webp",
+        "referenceId": "@UUID[Compendium.dnd5e.rules.w7eitkpD7QQTB6j0.JournalEntryPage.ZyZMUwA2rboh4ObS]{Stunned}",
+        "applyTrigger": "",
+        "removeTrigger": "",
+        "options": {
+          "overlay": false,
+          "removeOthers": false,
+          "outputChat": false,
+          "markDefeated": false
+        },
+        "isNew": false,
+        "isChanged": false,
+        "enrichedReference": "<a class=\"content-link\" draggable=\"true\" data-uuid=\"Compendium.dnd5e.rules.w7eitkpD7QQTB6j0.JournalEntryPage.ZyZMUwA2rboh4ObS\" data-id=\"ZyZMUwA2rboh4ObS\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Text Page\"><i class=\"fas fa-file-lines\"></i>Stunned</a>",
+        "hidden": false
+      },
+      {
+        "id": "sleeping",
+        "name": "Sleeping",
+        "icon": "modules/thanduls-custom-statuses/icons/18_Sleeping.webp",
+        "referenceId": "",
+        "applyTrigger": "",
+        "removeTrigger": "",
+        "options": {
+          "overlay": false,
+          "removeOthers": false,
+          "outputChat": false,
+          "markDefeated": false
+        },
+        "isNew": false,
+        "isChanged": false,
+        "enrichedReference": "",
+        "hidden": false
+      },
+      {
+        "id": "surprised",
+        "name": "Surprised",
+        "icon": "modules/thanduls-custom-statuses/icons/20_Suprised.webp",
+        "referenceId": "",
+        "applyTrigger": "",
+        "removeTrigger": "",
+        "options": {
+          "overlay": false,
+          "removeOthers": false,
+          "outputChat": false,
+          "markDefeated": false
+        },
+        "isNew": false,
+        "isChanged": false,
+        "enrichedReference": "",
+        "hidden": false
+      },
+      {
+        "id": "unconscious",
+        "name": "Unconscious",
+        "icon": "modules/thanduls-custom-statuses/icons/5_Unconscious.webp",
+        "referenceId": "@UUID[Compendium.dnd5e.rules.w7eitkpD7QQTB6j0.JournalEntryPage.UWw13ISmMxDzmwbd]{Unconscious}",
+        "applyTrigger": "",
+        "removeTrigger": "",
+        "options": {
+          "overlay": true,
+          "removeOthers": false,
+          "outputChat": false,
+          "markDefeated": false
+        },
+        "isNew": false,
+        "isChanged": false,
+        "enrichedReference": "<a class=\"content-link\" draggable=\"true\" data-uuid=\"Compendium.dnd5e.rules.w7eitkpD7QQTB6j0.JournalEntryPage.UWw13ISmMxDzmwbd\" data-id=\"UWw13ISmMxDzmwbd\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Text Page\"><i class=\"fas fa-file-lines\"></i>Unconscious</a>",
+        "hidden": false
+      },
+      {
+        "id": "wounded",
+        "name": "Wounded",
+        "icon": "modules/thanduls-custom-statuses/icons/21_Wounded.webp",
+        "referenceId": "",
+        "applyTrigger": "",
+        "removeTrigger": "",
+        "options": {
+          "overlay": false,
+          "removeOthers": false,
+          "outputChat": false,
+          "markDefeated": false
+        },
+        "isNew": false,
+        "isChanged": false,
+        "enrichedReference": "",
+        "hidden": false
+      },
+      {
+        "id": "buffed",
+        "name": "Buffed",
+        "icon": "modules/thanduls-custom-statuses/icons/24_Buffed.webp",
+        "referenceId": "",
+        "applyTrigger": "",
+        "removeTrigger": "",
+        "options": {
+          "overlay": false,
+          "removeOthers": false,
+          "outputChat": false,
+          "markDefeated": false
+        },
+        "isNew": false,
+        "isChanged": false,
+        "enrichedReference": "",
+        "hidden": false
+      },
+      {
+        "id": "blessed",
+        "name": "Blessed",
+        "icon": "modules/thanduls-custom-statuses/icons/26_Blessed.webp",
+        "referenceId": "",
+        "applyTrigger": "",
+        "removeTrigger": "",
+        "options": {
+          "overlay": false,
+          "removeOthers": false,
+          "outputChat": false,
+          "markDefeated": false
+        },
+        "isNew": false,
+        "isChanged": false,
+        "enrichedReference": "",
+        "hidden": false
+      },
+      {
+        "id": "disguised",
+        "name": "Disguised",
+        "icon": "modules/thanduls-custom-statuses/icons/27_Disguised.webp",
+        "referenceId": "",
+        "applyTrigger": "",
+        "removeTrigger": "",
+        "options": {
+          "overlay": false,
+          "removeOthers": false,
+          "outputChat": false,
+          "markDefeated": false
+        },
+        "isNew": false,
+        "isChanged": false,
+        "enrichedReference": "",
+        "hidden": false
+      },
+      {
+        "id": "dodging",
+        "name": "Dodging",
+        "icon": "modules/thanduls-custom-statuses/icons/22_Dodging.webp",
+        "referenceId": "",
+        "applyTrigger": "",
+        "removeTrigger": "",
+        "options": {
+          "overlay": false,
+          "removeOthers": false,
+          "outputChat": false,
+          "markDefeated": false
+        },
+        "isNew": false,
+        "isChanged": false,
+        "enrichedReference": "",
+        "hidden": false
+      },
+      {
+        "id": "enlarged",
+        "name": "Enlarged",
+        "icon": "modules/thanduls-custom-statuses/icons/28_Enlarged.webp",
+        "referenceId": "",
+        "applyTrigger": "",
+        "removeTrigger": "",
+        "options": {
+          "overlay": false,
+          "removeOthers": false,
+          "outputChat": false,
+          "markDefeated": false
+        },
+        "isNew": false,
+        "isChanged": false,
+        "enrichedReference": "",
+        "hidden": false
+      },
+      {
+        "id": "featherfalling",
+        "name": "Featherfalling",
+        "icon": "modules/thanduls-custom-statuses/icons/29_Featherfall.webp",
+        "referenceId": "",
+        "applyTrigger": "",
+        "removeTrigger": "",
+        "options": {
+          "overlay": false,
+          "removeOthers": false,
+          "outputChat": false,
+          "markDefeated": false
+        },
+        "isNew": false,
+        "isChanged": false,
+        "enrichedReference": "",
+        "hidden": false
+      },
+      {
+        "id": "flying",
+        "name": "Flying",
+        "icon": "modules/thanduls-custom-statuses/icons/30_Flying.webp",
+        "referenceId": "",
+        "applyTrigger": "",
+        "removeTrigger": "",
+        "options": {
+          "overlay": false,
+          "removeOthers": false,
+          "outputChat": false,
+          "markDefeated": false
+        },
+        "isNew": false,
+        "isChanged": false,
+        "enrichedReference": "",
+        "hidden": false
+      },
+      {
+        "id": "hastened",
+        "name": "Hastened",
+        "icon": "modules/thanduls-custom-statuses/icons/31_Hastened.webp",
+        "referenceId": "",
+        "applyTrigger": "",
+        "removeTrigger": "",
+        "options": {
+          "overlay": false,
+          "removeOthers": false,
+          "outputChat": false,
+          "markDefeated": false
+        },
+        "isNew": false,
+        "isChanged": false,
+        "enrichedReference": "",
+        "hidden": false
+      },
+      {
+        "id": "hidden",
+        "name": "Hidden",
+        "icon": "modules/thanduls-custom-statuses/icons/23_Hidden.webp",
+        "referenceId": "",
+        "applyTrigger": "",
+        "removeTrigger": "",
+        "options": {
+          "overlay": false,
+          "removeOthers": false,
+          "outputChat": false,
+          "markDefeated": false
+        },
+        "isNew": false,
+        "isChanged": false,
+        "enrichedReference": "",
+        "hidden": false
+      },
+      {
+        "id": "inspiration",
+        "name": "Inspiration",
+        "icon": "modules/thanduls-custom-statuses/icons/43_Inspiration.webp",
+        "referenceId": "",
+        "applyTrigger": "",
+        "removeTrigger": "",
+        "activeEffect": null,
+        "options": {
+          "overlay": false,
+          "removeOthers": false,
+          "outputChat": false,
+          "markDefeated": false
+        },
+        "isNew": false,
+        "isChanged": false,
+        "enrichedReference": "",
+        "hidden": false
+      },
+      {
+        "id": "invisible",
+        "name": "Invisible",
+        "icon": "modules/thanduls-custom-statuses/icons/32_Invisible.webp",
+        "referenceId": "",
+        "applyTrigger": "",
+        "removeTrigger": "",
+        "options": {
+          "overlay": false,
+          "removeOthers": false,
+          "outputChat": false,
+          "markDefeated": false
+        },
+        "isNew": false,
+        "isChanged": false,
+        "enrichedReference": "<a class=\"content-link broken\" draggable=\"true\"><i class=\"fas fa-unlink\"></i>undefined</a>",
+        "hidden": false
+      },
+      {
+        "id": "magic-attacks",
+        "name": "Magic Attacks",
+        "icon": "modules/thanduls-custom-statuses/icons/33_MagicWeapon.webp",
+        "referenceId": "",
+        "applyTrigger": "",
+        "removeTrigger": "",
+        "options": {
+          "overlay": false,
+          "removeOthers": false,
+          "outputChat": false,
+          "markDefeated": false
+        },
+        "isNew": false,
+        "isChanged": false,
+        "enrichedReference": "",
+        "hidden": false
+      },
+      {
+        "id": "mirror-image",
+        "name": "Mirror Image",
+        "icon": "modules/thanduls-custom-statuses/icons/34_MirrorImage.webp",
+        "referenceId": "",
+        "applyTrigger": "",
+        "removeTrigger": "",
+        "options": {
+          "overlay": false,
+          "removeOthers": false,
+          "outputChat": false,
+          "markDefeated": false
+        },
+        "isNew": false,
+        "isChanged": false,
+        "enrichedReference": "",
+        "hidden": false
+      },
+      {
+        "id": "omegabuffed",
+        "name": "Omegabuffed",
+        "icon": "modules/thanduls-custom-statuses/icons/25_Buffed2.webp",
+        "referenceId": "",
+        "applyTrigger": "",
+        "removeTrigger": "",
+        "options": {
+          "overlay": false,
+          "removeOthers": false,
+          "outputChat": false,
+          "markDefeated": false
+        },
+        "isNew": false,
+        "isChanged": false,
+        "enrichedReference": "",
+        "hidden": false
+      },
+      {
+        "id": "rage",
+        "name": "Rage",
+        "icon": "modules/thanduls-custom-statuses/icons/35_Rage.webp",
+        "referenceId": "",
+        "applyTrigger": "",
+        "removeTrigger": "",
+        "options": {
+          "overlay": false,
+          "removeOthers": false,
+          "outputChat": false,
+          "markDefeated": false
+        },
+        "isNew": false,
+        "isChanged": false,
+        "enrichedReference": "",
+        "hidden": false
+      }
+    ]
+  }
