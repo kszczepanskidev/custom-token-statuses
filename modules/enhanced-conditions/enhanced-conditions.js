@@ -379,12 +379,12 @@ export class EnhancedConditions {
             const url = new URL(element.src);
             const path = url?.pathname?.substring(1);
             const conditions = EnhancedConditions.getConditionsByIcon(path);
-            const statusEffect = CONFIG.statusEffects.find(e => e.icon === path);
+            const statusEffect = CONFIG.statusEffects.find(e => e.img === path);
 
             if (conditions?.length) {
                 element.title = conditions[0];
-            } else if (statusEffect?.label) {
-                element.title = game.i18n.localize(statusEffect.label);
+            } else if (statusEffect?.name) {
+                element.title = game.i18n.localize(statusEffect.name);
             }
         });
     }
@@ -767,7 +767,7 @@ export class EnhancedConditions {
 
         // Iterate through the map validating/preparing the data
         for (let i = 0; i < conditionMap.length; i++) {
-            let condition = duplicate(conditionMap[i]);
+            let condition = foundry.utils.duplicate(conditionMap[i]);
 
             // Delete falsy values
             if (!condition) preparedMap.splice(i, 1);
@@ -795,7 +795,7 @@ export class EnhancedConditions {
      * Duplicate the core status icons, freeze the duplicate then store a copy in settings
      */
     static _backupCoreEffects() {
-        CONFIG.defaultStatusEffects = CONFIG.defaultStatusEffects || duplicate(CONFIG.statusEffects);
+        CONFIG.defaultStatusEffects = CONFIG.defaultStatusEffects || foundry.utils.duplicate(CONFIG.statusEffects);
         if (!Object.isFrozen(CONFIG.defaultStatusEffects)) {
             Object.freeze(CONFIG.defaultStatusEffects);
         }
@@ -919,18 +919,16 @@ export class EnhancedConditions {
                 id: longId,
                 flags: {
                     ...c.activeEffect?.flags,
-                    core: {
-                        statusId: longId
-                    },
                     [BUTLER.NAME]: {
                         [BUTLER.FLAGS.enhancedConditions.conditionId]: id,
                         [BUTLER.FLAGS.enhancedConditions.overlay]: c?.options?.overlay ?? false
                     }
                 },
-                label: c.name,
-                icon: c.icon,
+                name: c.name,
+                img: c.icon,
                 changes: c.activeEffect?.changes || [],
-                duration: c.duration || c.activeEffect?.duration || {}
+                duration: c.duration || c.activeEffect?.duration || {},
+                statuses: [longId]
             }
 
             statusEffects.push(effect);
